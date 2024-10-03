@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+    color: #343a40;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    text-align: center;
+    color: #6f42c1;
+    margin-bottom: 20px;
+}
+h3 {
+    color: #17a2b8;
+    margin-bottom: 15px;
+}
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 8px rgba(111, 66, 193, 0.5);
+    outline: none;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+.hidden {
+    display: none;
+}
+.document-list {
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ced4da;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #e9ecef;
+}
+#loginMessage {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 10px;
+}
+.status-select {
+    width: auto;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s;
+}
+.status-select:focus {
+    border-color: #6f42c1;
+    outline: none;
+}
+.uploaded-documents {
+    margin-top: 20px;
+}
+.uploaded-documents ul {
+    list-style-type: none;
+    padding: 0;
+}
+.uploaded-documents li {
+    padding: 8px;
+    background-color: #f8f9fa; 
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ced4da; 
+}
