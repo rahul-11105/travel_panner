@@ -1,5 +1,5 @@
-const validUsername = "planner";
-    const validPassword = "password";
+const validUsername = "admin";
+    const validPassword = "admin";
 
     function login() {
         const username = document.getElementById("username").value;
